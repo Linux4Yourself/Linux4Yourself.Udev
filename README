@@ -6,7 +6,7 @@ mkdir /tmp/udev-lfs-$VERSION
 cp -av * /tmp/udev-lfs-$VERSION
 tar -jcf /tmp/udev-lfs-$VERSION.tar.bz2 -C /tmp udev-lfs-$VERSION
 
-Makefile.lfs         - The LFS Makefile.  Installs udev rules for LFS.
+Makefile         -  Installs udev rules for LFS.
 
 contrib              - Useful rules from debian
 contrib/debian
